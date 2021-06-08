@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#videos{
+    
+    width: 100%;
+    height: 500px;
+    border:none;
+}
+#marqueeStyle{
+    background-color: blue;
+    color: white;
+}
+.my_nav_bar{
+    position: sticky;
+    top:0px;
+    z-index: 99999;
+  
+}
+.campus_life_mainDiv img{
+    width: 100%;
+    height: 300px;
+}
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#map iframe{
+    width: 100%;
+}
+.achievment_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.achievment_head i{
+    float: right;
+}
+.campus_life_mainDiv{
+    float: left;
+    width: 33.33%;
+    border: 1px solid #c7c7c7;
+}
+.campus_life_mainDiv hr{
+    width: 100%;
+}
+.campus_life_mainDiv h5,.campus_life_mainDiv p{
+    margin-left: 20px;
+}
+#Details h3{
+ display: inline-block
+}
+.whats_new-li{
+    margin-top: 13px;
+}
+.whats_new-li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.whats_new-li p{
+    margin-top: 10px;
+}
+.whats_new-li img{
+    border-radius: 25px;
+}
+.alumni{
+    cursor: pointer;
+}
+.alumni hr{
+    margin-bottom: 10px;
+}
+.model-content{
+    margin-top: 100px;
+}
+.img-modal{
+    display: inline-block;
+}
+.p_modal{
+    margin-top: 10px;
+}
+.modal-body{
+    text-align: center
+}
+#alumni_photos{
+    height: 250px;
+    width: 500px;
+}
